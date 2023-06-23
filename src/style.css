@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.section-one {
+    background-color: #0A0908;
+}
+
+.image {
+    position: absolute;
+    width: 100%;
+    background-color: #0A0908;
+}
+
+.image img {
+    width: 70%;
+    align-items: center;
+    opacity: 0.4;
+    margin-left: 15%;
+}
+
+.nav-content {
+    position: relative;
+    display: flex;
+    width: 70%;
+    margin: auto;
+    background-color: #0A0908;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-top: 20px;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+.logo img {
+    width: 8rem;
+}
+
+.nav-content ul {
+    display: flex;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+.nav-content ul li {
+    list-style: none;
+    margin-left: 35px;
+    font-weight: 900;
+}
+
+.nav-content a {
+    text-decoration: none;
+    color: #EAE0D5;
+}
+
+a:hover {
+    background-color: #C6AC8F;
+    padding: 0.6rem;
+    text-decoration: underline 0.1rem solid #0A0908;
+}
+
+.project {
+    color: #EAE0D5;
+    position: relative;
+    text-align: center;
+}
+
+.line {
+    width: 40%;
+    margin: auto;
+    font-weight: 800;
+}
+
+.line hr {
+    border: 2px solid #C6AC8F;
+}
+
+.project>:first-child {
+    margin-top: 9%;
+}
+
+.project .in-line {
+    margin: 3.5rem 0 3.5rem 0;
+}
+
+.in-line h1 {
+    font-size: 300%;
+    font-weight: 900;
+}
+
+.in-line p {
+    font-weight: 900;
+}
+
+.project-description {
+    margin-top: 3rem;
+}
+
+/* end of first section begining of second section */
