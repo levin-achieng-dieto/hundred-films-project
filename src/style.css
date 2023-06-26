@@ -80,6 +80,7 @@ a:hover {
     font-weight: 800;
 }
 
+.courses-line hr,
 .section-two hr,
 .line hr {
     border: 2px solid #C6AC8F;
@@ -161,5 +162,140 @@ button:hover {
 
 button i {
     margin-left: 1rem;
-    /* font-size: 1.2rem; */
+}
+
+/* end of about us section, beginning of courses offered */
+
+.section-three {
+    color: #EAE0D5;
+    background-color: #0A0908;
+    /* background: url(./images/annie-unsplash.jpg); */
+    border-top: 0.3rem solid #EAE0D5;
+}
+
+.section-three img {
+    position: absolute;
+    opacity: 0.3;
+}
+
+.our-courses {
+    width: 70%;
+    margin: auto;
+    padding-bottom: 6rem;
+    position: relative;
+
+}
+
+.our-courses .courses-line {
+    text-align: center;
+    margin: 8rem 0 3rem 0;
+}
+
+.courses-line hr {
+    width: 10%;
+    margin: auto;
+}
+
+.our-courses .courses-line h2 {
+    margin-top: 3rem;
+}
+
+.courses {
+    display: flex;
+    justify-content: space-between;
+}
+
+.courses ul li {
+    padding-bottom: 1rem;
+    margin-left: 2rem;
+    list-style-type: square;
+}
+
+.courses .container {
+    /* border: 0.2rem solid #C6AC8F; */
+    width: 24%;
+    background-color: #EAE0D5;
+    color: #0A0908;
+    border-radius: 1rem;
+    box-shadow: 0.2rem 0.2rem #C6AC8F;
+}
+
+.container h3 {
+    text-align: center;
+    margin: 1rem 0 1.5rem 0;
+}
+
+/* end of courses offered, beginning of clients reviews */
+
+.section-four {
+    background-color: #0A0908;
+    color: #EAE0D5;
+    border-top: 0.3rem solid #EAE0D5;
+}
+
+.reviews {
+    width: 70%;
+    margin: auto;
+}
+
+.reviews .courses-line hr {
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+}
+
+.reviews h3 {
+    text-align: center;
+    margin-bottom: 5rem;
+    font-size: 1.8rem;
+}
+
+.review-card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.client-image {
+    position: absolute;
+}
+
+.client-image img {
+    width: 22rem;
+    height: 20rem;
+}
+
+.container-two {
+    position: relative;
+    margin-left: 15rem;
+}
+
+.client-name {
+    width: 70%;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    padding: 0.5rem 0.5rem;
+    background-color: #EAE0D5;
+}
+
+.client-name h4 {
+    color: #0A0908;
+
+}
+
+
+.clients-info {
+    margin: 0 2rem 5rem 2rem;
+    width: 40%;
+}
+
+.client-review {
+    width: 100%;
+    height: 12.7rem;
+    background-color: #EAE0D5;
+    color: #0A0908;
+    padding: 1rem;
+}
+
+.reviews button {
+    margin-left: 40%;
+    margin-bottom: 5rem;
 }
