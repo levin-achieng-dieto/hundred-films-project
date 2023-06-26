@@ -151,7 +151,7 @@ button {
     padding: 1rem 1.7rem;
     background-color: #0A0908;
     color: #EAE0D5;
-    border: 0.2rem solid #C6AC8F;
+    border: 0.1rem solid #C6AC8F;
     font-weight: 700;
     font-size: 1rem;
 }
@@ -169,7 +169,6 @@ button i {
 .section-three {
     color: #EAE0D5;
     background-color: #0A0908;
-    /* background: url(./images/annie-unsplash.jpg); */
     border-top: 0.3rem solid #EAE0D5;
 }
 
@@ -281,7 +280,6 @@ button i {
 
 }
 
-
 .clients-info {
     margin: 0 2rem 5rem 2rem;
     width: 40%;
@@ -293,9 +291,61 @@ button i {
     background-color: #EAE0D5;
     color: #0A0908;
     padding: 1rem;
+    border: 0.3rem solid #C6AC8F;
+    overflow: auto;
 }
 
 .reviews button {
     margin-left: 40%;
     margin-bottom: 5rem;
+}
+
+
+/* form reviews */
+
+
+.review-form {
+    width: 70%;
+    margin: auto;
+}
+
+.form-inputs {
+    border: 0.1rem solid #0A0908;
+    border-radius: 0.8rem;
+    margin-top: 3rem;
+    width: 40%;
+    margin-left: 25%;
+    padding: 2rem 1rem;
+}
+
+.container-three h3 {
+    font-size: 2rem;
+    padding-bottom: 1.3rem;
+}
+
+.container-three hr {
+    margin-bottom: 1.2rem;
+}
+
+
+.controls input,
+.controls textarea {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 0.3rem;
+    margin-top: 1rem;
+}
+
+.controls textarea {
+    height: 13rem;
+    overflow: auto;
+}
+
+.form-buttons {
+    display: flex;
+    margin-top: -2rem;
+}
+
+.controls button {
+    margin-left: 1rem;
 }

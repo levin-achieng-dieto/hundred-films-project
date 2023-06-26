@@ -251,7 +251,56 @@
 
 
         <div class="section-five">
-            <h2>FOOTER</h2>
+            <div class="review-form">
+                <div class="form-inputs">
+                    <div class="container-three">
+                        <h3>Create Your New Rreview</h3>
+                        <hr>
+                        <!-- <div class="alert alert-success invisible" id="successSend"><strong>Thank you!</strong>Your
+                            review has been sent.</div>
+                        <div class="alert alert-error invisible" id="errorSend">There was an error.</div> -->
+
+                        <form action="php/mail.php" id="contact-form">
+                            <div class="control-group">
+                                <div class="controls"><input class="span12" id="email" name="email"
+                                        placeholder="* Your image link..." type="email" />
+                                    <div class="error left-align" id="err-email">Please enter valid image link.</div>
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <div class="controls"><input class="span12" id="name" name="name"
+                                        placeholder="* Your name..." type="text" />
+                                    <div class="error left-align" id="err-name">Please enter name.</div>
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <div class="controls"><textarea class="span12" id="comment" name="comment"
+                                        placeholder="* your review..."></textarea>
+                                    <div class="error left-align" id="err-comment">Please enter your review.</div>
+                                </div>
+                            </div>
+                            <div class="form-buttons">
+                                <div class="control-group">
+                                    <div class="controls"><button class="message-btn" id="send-mail">cansel</button>
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <div class="controls"><button class="message-btn" id="send-mail">post</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-five">
+            <h2>contact</h2>
+        </div>
+        <div class="section-five">
+            <div>
+                <h2>FOOTER</h2>
+            </div>
         </div>
     </div>
 </body>
